@@ -1,4 +1,3 @@
-# Arch-Dots
 ## Connect to internet (WIFI)
 ```shell
 rfkill unblock wifi
@@ -173,6 +172,10 @@ yay -S btop
 ### Image viewer and editor tool
 ```shell
 yay -S swappy
+```
+### Printing
+```shell
+yay -S cups cups-pdf ghostscript gsfonts gutenprint system-config-printer
 ```
 ### Status bar (Waybar)
 You can use my fork of waybar with new module added for Islamic prayer timings and build it from source : https://github.com/abdalrahmanshaban0/Waybar-with-prayer-timer

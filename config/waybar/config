@@ -2,7 +2,7 @@
   "layer": "top",
   "position": "top",
   "spacing": 1,
-  "modules-left": ["custom/wlogout", "hyprland/workspaces"],
+  "modules-left": ["custom/wlogout", "hyprland/workspaces", "hyprland/window"],
   "modules-center": ["custom/waypaper", "clock"],
   "modules-right": ["prayer_timer","pulseaudio", "memory", "cpu", "temperature", "battery", "tray"],
 
