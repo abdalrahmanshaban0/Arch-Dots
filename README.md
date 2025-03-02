@@ -184,6 +184,11 @@ You can use my fork of waybar with new module added for Islamic prayer timings a
 yay -S gimp
 # mostly use online AI tools
 ```
+### Wine (Run windows programs)
+enable multilib in /etc/pacman.conf
+```shell
+sudo pacman -Syyu wine wine-mono wine-gecko
+```
 ### Video editting
 Kdenlive sucks and Davinci Resolve on Linux doesn't support H.264 codec (the paid version does, also you can transcode all of your project videos for some hours and torture your hardware). So I'm sadly dual booting Windows 11 and using Resolve, MS-Office, Matlab and any program I have to use Windows for it.
 ### Dual boot
