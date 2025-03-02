@@ -1,0 +1,52 @@
+# GLOBAL
+#sort=+time
+layer=overlay
+
+# STYLE
+font= JetBrainsMonoNL-Regular 12
+width=250
+margin=20
+padding=0, 0, 20, 20
+border-size=1
+border-radius=10
+progress-color=#1e1e2e
+max-icon-size=36
+icon-path=/usr/share/icons/hicolor/16x16
+icon-location=left
+format=<b>%s</b>\n%b
+text-alignment=left
+anchor=top-right
+
+# CRITERA
+## urgency
+[urgency=low]
+default-timeout=2500
+background-color=#1e1e2e
+border-color=#cdd6f4
+text-color=#cdd6f4
+
+[urgency=normal]
+icons=1
+default-timeout=4000
+background-color=#1e1e2e
+border-color=#cdd6f4
+text-color=#fab387
+on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/message.oga
+
+[urgency=critical]
+default-timeout=0
+background-color=#f5c2e7
+border-color=#cdd6f4
+text-color=#1e1e2e
+on-notify=exec mpv /usr/share/sounds/freedesktop/stereo/dialog-warning.oga
+
+## app-name
+[app-name=grim]
+anchor=top-center
+format=%s\n%b
+group-by=app-name
+default-timeout=3000
+
+## body
+[body=""]
+format=%s\n%b
