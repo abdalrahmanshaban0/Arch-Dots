@@ -76,6 +76,7 @@ yay -S swww waypaper
 ### Network manager and Bluetooth 
 ```shell
 yay -S network-manager-applet bluez bluez-utils bluez-obex blueman
+sudo systemctl enable bluetooth.service
 ```
 ### File manager and archiving
 ```shell
@@ -187,7 +188,15 @@ yay -S gimp
 ### Wine (Run windows programs)
 enable multilib in /etc/pacman.conf
 ```shell
-sudo pacman -Syyu wine wine-mono wine-gecko
+sudo pacman -Syyu wine wine-mono wine-gecko winetricks
+```
+### Quran
+```shell
+yay -S quran-companion
+```
+### Screen sharing
+```shell
+yay -S obs-studio
 ```
 ### Video editting
 Kdenlive sucks and Davinci Resolve on Linux doesn't support H.264 codec (the paid version does, also you can transcode all of your project videos for some hours and torture your hardware). So I'm sadly dual booting Windows 11 and using Resolve, MS-Office, Matlab and any program I have to use Windows for it.
