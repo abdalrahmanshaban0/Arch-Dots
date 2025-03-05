@@ -32,7 +32,7 @@ copy the dependencies of Arch Linux manual installation (y in vim)
 ``:term`` in vim and paste it and enjoy you don't have to write them one by one :'D
 ## Build and install Hyprland
 ```shell
-git cloen --recursive https://github.com/hyprwm/hyprland
+git clone --recursive https://github.com/hyprwm/hyprland
 cd Hyprland
 make all && sudo make install
 ```
