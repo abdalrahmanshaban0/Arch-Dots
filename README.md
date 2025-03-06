@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/cf85b9f0-a4ea-43cd-9f7b-427ff1d33b76)
+
 ## Connect to internet (WIFI)
 ```shell
 rfkill unblock wifi
