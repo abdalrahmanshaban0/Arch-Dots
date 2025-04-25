@@ -198,10 +198,14 @@ yay -S quran-companion
 ```
 ### Screen sharing
 ```shell
-yay -S obs-studio
+yay -S obs-studio xdg-desktop-portal-hyprland
 ```
 ### Video editting
-Kdenlive sucks and Davinci Resolve on Linux doesn't support H.264 codec (the paid version does, also you can transcode all of your project videos for some hours and torture your hardware). So I'm sadly dual booting Windows 11 and using Resolve, MS-Office, Matlab and any program I have to use Windows for it.
+Kdenlive sucks and Davinci Resolve on Linux doesn't support H.264 codec (the paid version does, also you can transcode all of your project videos for some hours and torture your hardware). The best solution for me is using a GPU that supports AV1 video encoder.<br>
+I'm currently using an AMD CPU that contains an integrated graphics that has AV1 encoder. You need to download packages to support OpenCl to make Davinci Resolve work:
+```sh
+sudo pacman -S rocm-opencl-runtime opencl-rusticl-mesa
+```
 ### Dual boot
 I'm dual booting on 2 different drives and choose which one to boot in using Grub. To make Grub supports that :
 ```shell
