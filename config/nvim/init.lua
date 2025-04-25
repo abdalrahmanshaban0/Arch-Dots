@@ -26,3 +26,12 @@ require("config.lazy")
 --colorscheme
 vim.o.background = "dark" -- or "light" for light mode
 vim.cmd([[colorscheme catppuccin]])
+
+-- showing error reason for clangd
+vim.diagnostic.config({
+	virtual_text = true,
+	signs = true,
+	underline = true,
+	update_in_insert = false,
+	severity_sort = true,
+})

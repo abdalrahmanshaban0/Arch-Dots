@@ -6,7 +6,7 @@ return {
       local capabilities = vim.lsp.protocol.make_client_capabilities()
       capabilities = require('cmp_nvim_lsp').default_capabilities(capabilities)
       require("mason").setup {
-        ensure_installed = { "clangd", "clang-format", "stylua", "black", "cspell" },
+        ensure_installed = { "clangd", "clang-format", "stylua", "black" },
       }
       require("lspconfig").pyright.setup {
         capabilities = capabilities,
