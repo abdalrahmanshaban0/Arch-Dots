@@ -82,15 +82,11 @@ sudo systemctl enable bluetooth.service
 ```
 ### File manager and archiving
 ```shell
-sudo pacman -S thunar gvfs gvfs-mtp thunar-volman ffmpegthumbnailer tumbler man-db lsd bzip2 gzip xztar p7zip unrar zip unzip
+sudo pacman -S thunar gvfs gvfs-mtp thunar-volman ffmpegthumbnailer tumbler man-db lsd bzip2 gzip p7zip unrar zip unzip
 ```
 ### Terminal
 ```shell
 sudo pacman -S alacritty
-```
-### Notification daemon
-```shell
-sudo pacman -S mako jq
 ```
 ### Clipboard
 ```shell
