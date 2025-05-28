@@ -25,6 +25,11 @@ git clone https://aur.archlinux.org/yay.git
 cd yay-git
 makepkg -si
 ```
+### Enable multilib from /etc/pacman.conf
+```shell
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+```
 ### Install Hyprland dependencies:
 ```shell
 git clone https://github.com/hyprwm/hyprland-wiki
@@ -201,6 +206,10 @@ Kdenlive sucks and Davinci Resolve on Linux doesn't support H.264 codec (the pai
 I'm currently using an AMD CPU that contains an integrated graphics that has AV1 encoder. You need to download packages to support OpenCl to make Davinci Resolve work:
 ```sh
 sudo pacman -S rocm-opencl-runtime opencl-rusticl-mesa
+```
+### Gaming
+```shell
+sudo pacman -S lutris mangohud gamemode libxnvctrl goverlay
 ```
 ### Dual boot
 I'm dual booting on 2 different drives and choose which one to boot in using Grub. To make Grub supports that :
