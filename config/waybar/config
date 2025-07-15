@@ -4,7 +4,7 @@
   "spacing": 1,
   "modules-left": ["custom/wlogout", "hyprland/workspaces", "hyprland/window"],
   "modules-center": ["custom/waypaper", "clock"],
-  "modules-right": ["prayer_timer","pulseaudio", "memory", "cpu", "temperature", "battery", "tray"],
+  "modules-right": ["custom/prayerTimings","pulseaudio", "tray"],
 
   "hyprland/window":{
 	  "max-length": 50,
@@ -12,12 +12,13 @@
 
   "tray": {
       // "icon-size": 21,
-      "spacing": 10
+      "spacing": 7
   },
 
   "clock": {
-	  "interval":1,
-  	"format": "{:%I:%M:%S %p  %A %d %b %y}",
+	  "interval":60,
+  	"format": "{:L%I:%M %p    %A %m/%d}",
+    "locale": "ar_EG.UTF-8",
   	"tooltip-format": "<tt><small>{calendar}</small></tt>",
   	"calendar": {
   		"mode"          : "year",
@@ -50,20 +51,25 @@
     
   "memory": {
 	  "interval": 1,
-    "format": "{used}/{total}Gb "
+    "format": "{used}/{total}Gb "
   },
 
   "temperature": {
     "interval": 1,
-    "hwmon-path": "/sys/class/hwmon/hwmon3/temp1_input",
-    "critical-threshold": 90,
+    "hwmon-path": "/sys/class/hwmon/hwmon1/temp1_input",
+    "critical-threshold": 80,
     "format": "{temperatureC}°C {icon}",
     "format-icons": ["", "", ""]
   },
     
-  "prayer_timer":{
-    "file-path": "/home/abdalrahman/.src/Islamic-Prayer-Timings/next"
+
+  "custom/prayerTimings": {
+    "exec": "/home/abdalrahman/.src/Islamic-Prayer-Timings/build/Islamic_Prayer_Timings",
+    "format": "{text} 🕋",
+    "return-type": "json",
+    "tooltip": true
   },
+
 
   "battery": {
     "bat": "BAT0",
@@ -96,7 +102,7 @@
     },
 
   "custom/wlogout": {
-    "format": "󰣇 {}",
+    "format": " {}",
     "on-click": "wlogout -b 4",
   },
   "custom/waypaper": {
@@ -104,8 +110,8 @@
     "on-click": "waypaper",
   },
   "custom/nvidia": {
-    "exec": "nvidia-smi --query-gpu=utilization.gpu,temperature.gpu --format=csv,nounits,noheader | sed 's/\\([0-9]\\+\\), \\([0-9]\\+\\)/\\1% 🌡️\\2°C/g'",
-    "format": "{} gpu ",
+    "exec": "nvidia-smi --query-gpu=utilization.gpu,temperature.gpu --format=csv,nounits,noheader | sed 's/\\([0-9]\\+\\), \\([0-9]\\+\\)/\\1% | \\2°C /g'",
+    "format": "{text} \uF8C7 ",
     "interval": 2
   }
 }

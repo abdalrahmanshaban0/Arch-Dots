@@ -92,7 +92,7 @@ button:hover {
 #pulseaudio:hover {
 	color: @yellow;
 }
-#prayer_timer {
+#custom-prayerTimings {
 	padding: 2px 15px;
 	margin: 5px;
 	color: @fg;
@@ -124,7 +124,14 @@ button:hover {
 	border: none;
 	border-radius: 20px;
 }
-
+#custom-nvidia {
+	padding: 2px 15px;
+	margin: 5px;
+	color: @fg;
+	background-color: @bg2;
+	border: none;
+	border-radius: 20px;
+}
 #clock {
 	padding: 2px 15px;
 	margin: 5px;
