@@ -22,7 +22,14 @@ window#waybar {
 	background-color: rgba(30, 30, 46, 0.6);
 }
 
-
+#custom-notification {
+	padding: 2px 15px;
+	margin: 5px;
+	color: @fg;
+	background-color: @bg2;
+	border: none;
+	border-radius: 20px;
+}
 
 #custom-menu {
 	padding: 2px 15px;
@@ -168,3 +175,6 @@ button:hover {
 	/* color: @yellow; */
 }
 
+#custom-notification:hover {
+	color: @yellow;
+}
