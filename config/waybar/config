@@ -4,12 +4,33 @@
   "spacing": 1,
   "modules-left": ["custom/wlogout", "hyprland/workspaces", "hyprland/window"],
   "modules-center": ["custom/waypaper", "clock"],
-  "modules-right": ["custom/prayerTimings","pulseaudio", "tray"],
+  "modules-right": ["custom/prayerTimings","pulseaudio", "tray", "custom/notification"],
 
   "hyprland/window":{
 	  "max-length": 50,
   },
-
+  
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{} {icon}",
+    "format-icons": {
+      "notification": " <span foreground='red'><sup></sup></span>",
+      "none": " ",
+      "dnd-notification": " <span foreground='red'><sup></sup></span>",
+      "dnd-none": " ",
+      "inhibited-notification": " <span foreground='red'><sup></sup></span>",
+      "inhibited-none": " ",
+      "dnd-inhibited-notification": " <span foreground='red'><sup></sup></span>",
+      "dnd-inhibited-none": " "
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true
+  },
+  
   "tray": {
       // "icon-size": 21,
       "spacing": 7
@@ -23,13 +44,13 @@
   	"calendar": {
   		"mode"          : "year",
   		"mode-mon-col"  : 3,
-  		"weeks-pos"     : "right",
+  		"weeks-pos"     : "left",
   		"on-scroll"     : 1,
   		"on-click-right": "mode",
   		"format": {
   			"months":     "<span color='#ffead3'><b>{}</b></span>",
   			"days":       "<span color='#ecc6d9'><b>{}</b></span>",
-  			"weeks":      "<span color='#99ffdd'><b>W{}</b></span>",
+  			"weeks":      "<span color='#99ffdd'><i>{}</i></span>",
   			"weekdays":   "<span color='#ffcc66'><b>{}</b></span>",
   			"today":      "<span color='#ff6699'><b><u>{}</u></b></span>"
   		}
@@ -83,7 +104,7 @@
 
   "pulseaudio": {
     "scroll-step": 5, // %, can be a float
-    "format": "{volume}% {icon} {format_source}",
+    "format": "{volume}% {icon}  {format_source}",
     "format-bluetooth": "{volume}% {icon} {format_source}",
     "format-bluetooth-muted": "󰝟 {icon} {format_source}",
     "format-muted": "󰝟 {format_source}",
