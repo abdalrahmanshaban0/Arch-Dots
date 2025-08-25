@@ -1,0 +1,3 @@
+[submodule ".config/waybar/modules/Islamic-Prayer-Timings"]
+	path = .config/waybar/modules/Islamic-Prayer-Timings
+	url = git@github.com:abdalrahmanshaban0/Islamic-Prayer-Timings.git
