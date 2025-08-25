@@ -5,19 +5,19 @@ size = 12.0
 padding = {x = 10, y = 10}
 
 [font.bold]
-family = "JetBrainsMono"
+family = "FiraCodeNerdFont"
 style = "Bold"
 
 [font.bold_italic]
-family = "JetBrainsMono"
+family = "FiraCodeNerdFont"
 style = "Bold Italic"
 
 [font.italic]
-family = "JetBrainsMono"
+family = "FiraCodeNerdFont"
 style = "Italic"
 
 [font.normal]
-family = "JetBrainsMono"
+family = "FiraCodeNerdFont"
 style = "Regular"
 
 [colors.primary]
