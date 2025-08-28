@@ -80,9 +80,9 @@
     }
   },
   "custom/weather": {
-    "exec": "curl -s https://wttr.in/Assiut?format=1 | sed -E \"s/\\s+/ /g\"",
+    "exec": "curl -s https://wttr.in/أسيوط?format=1 | sed -E \"s/\\s+/ /g\"",
     "format": "{}",
-    "interval": 3600
+    "interval": 1800
   },
   "cpu": {
     "interval": 1,
