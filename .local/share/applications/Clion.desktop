@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=CLion
+Icon=/opt/clion-2025.2.1/bin/clion.svg
+Exec="/opt/clion-2025.2.1/bin/clion" %f
+Comment=CLion IDE for C and C++
+Terminal=false
