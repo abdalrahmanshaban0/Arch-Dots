@@ -140,10 +140,10 @@
   },
   "wireplumber": {
     "scroll-step": 1,
-    "on-click": "pavucontrol",
+    "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
     "on-click-right": "pactl set-source-mute @DEFAULT_SOURCE@ toggle",
     "format": "{icon} {volume}% | {format_source}",
-    "format-muted": " ",
+    "format-muted": "  | {format_source}",
     "format-source": "",
     "format-source-muted": "",
     //"format-muted": "<span foreground='#fab387'> </span>",
