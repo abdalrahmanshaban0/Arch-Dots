@@ -80,9 +80,11 @@
     }
   },
   "custom/weather": {
-    "exec": "curl -s https://wttr.in/أسيوط?format=1 | sed -E \"s/\\s+/ /g\"",
-    "format": "{}",
-    "interval": 1800
+    // change your city in the script file
+    "exec": "$HOME/.config/waybar/modules/weather.py",
+    "format": "☀️ {}",
+    "interval": 1800,
+    "return-type": "json"
   },
   "cpu": {
     "interval": 1,
