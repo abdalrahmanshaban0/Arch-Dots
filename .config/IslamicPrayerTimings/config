@@ -1,0 +1,6 @@
+{
+  "country": "Egypt",
+  "city": "Assiut",
+  "hour24": false,
+  "onAdhan": "~/.config/IslamicPrayerTimings/inAdhan.sh"
+}
