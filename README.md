@@ -1,5 +1,7 @@
 You can find a comprehensive guide for Arch Linux with Hyprland [here](https://sudostart.com/arch-linux-guide/)
 
+<a href="https://www.buymeacoffee.com/abdalrahman" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 ## My System:
 - **Distro**: [Arch Linux](https://archlinux.org/)
 - **Window Manager**: [Hyprland](https://github.com/hyprwm/Hyprland)
@@ -13,6 +15,8 @@ You can find a comprehensive guide for Arch Linux with Hyprland [here](https://s
 - **Image viewer**: [Swappy](https://github.com/jtheoof/swappy)
 - **Media Player**: [MPV](https://github.com/mpv-player/mpv)
 - **Screenshots**: [Grimblast](https://github.com/hyprwm/contrib/tree/main/grimblast)
+- **Text editor**: [NeoVim](https://neovim.io/)
+
 ## Screenshots:
 <img width="1920" height="1080" alt="2025-08-25T14:22:29,036138839+03:00" src="https://github.com/user-attachments/assets/4cc32c52-d51e-4f39-890d-6cf9c8b4b511" />
 <br><br>
