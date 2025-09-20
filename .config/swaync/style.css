@@ -6,12 +6,12 @@
 }
 
 trough highlight {
-  background: #cad3f5;
+  background: rgba(36,39,58,0.6);
 }
 
 scale trough {
   margin: 0rem 1rem;
-  background-color: #363a4f;
+  background-color: rgba(36,39,58,0.6);
   min-height: 8px;
   min-width: 70px;
 }
@@ -24,7 +24,7 @@ slider {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8), inset 0 0 0 1px #363a4f;
   border-radius: 12.6px;
   margin: 18px;
-  background-color: #24273a;
+  background-color: rgba(36,39,58,0.6);
   color: #cad3f5;
   padding: 0;
 }
@@ -61,14 +61,14 @@ slider {
 .floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action {
   border-radius: 7px;
   color: #cad3f5;
-  background-color: #363a4f;
+  background-color: rgba(36,39,58,0.6);
   box-shadow: inset 0 0 0 1px #494d64;
   margin: 7px;
 }
 
 .floating-notifications.background .notification-row .notification-background .notification > *:last-child > * .notification-action:hover {
   box-shadow: inset 0 0 0 1px #494d64;
-  background-color: #363a4f;
+  background-color: rgba(36,39,58,0.6);
   color: #cad3f5;
 }
 
@@ -100,7 +100,7 @@ slider {
   box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8), inset 0 0 0 1px #363a4f;
   border-radius: 12.6px;
   margin: 18px;
-  background-color: #24273a;
+  background-color: rgba(36,39,58,0.6);
   color: #cad3f5;
   padding: 14px;
 }
@@ -113,14 +113,14 @@ slider {
 .control-center .widget-title button {
   border-radius: 7px;
   color: #cad3f5;
-  background-color: #363a4f;
+  background-color: rgba(36,39,58,0.6);
   box-shadow: inset 0 0 0 1px #494d64;
   padding: 8px;
 }
 
 .control-center .widget-title button:hover {
   box-shadow: inset 0 0 0 1px #494d64;
-  background-color: #5b6078;
+  background-color: rgba(36,39,58,0.6);
   color: #cad3f5;
 }
 
@@ -133,7 +133,7 @@ slider {
 .control-center .notification-row .notification-background {
   border-radius: 7px;
   color: #cad3f5;
-  background-color: #363a4f;
+  background-color: rgba(36,39,58,0.6);
   box-shadow: inset 0 0 0 1px #494d64;
   margin-top: 14px;
 }
@@ -170,14 +170,14 @@ slider {
 .control-center .notification-row .notification-background .notification > *:last-child > * .notification-action {
   border-radius: 7px;
   color: #cad3f5;
-  background-color: #181926;
+  background-color: rgba(36,39,58,0.6);
   box-shadow: inset 0 0 0 1px #494d64;
   margin: 7px;
 }
 
 .control-center .notification-row .notification-background .notification > *:last-child > * .notification-action:hover {
   box-shadow: inset 0 0 0 1px #494d64;
-  background-color: #363a4f;
+  background-color: rgba(36,39,58,0.6);
   color: #cad3f5;
 }
 
@@ -211,7 +211,7 @@ slider {
 
 .control-center .notification-row .notification-background:hover {
   box-shadow: inset 0 0 0 1px #494d64;
-  background-color: #8087a2;
+  background-color: rgba(36,39,58,0.6);
   color: #cad3f5;
 }
 
@@ -233,13 +233,13 @@ slider {
 .control-center-dnd {
   margin-top: 5px;
   border-radius: 8px;
-  background: #363a4f;
+  background: rgba(36,39,58,0.6);
   border: 1px solid #494d64;
   box-shadow: none;
 }
 
 .control-center-dnd:checked {
-  background: #363a4f;
+  background: rgba(36,39,58,0.6);
 }
 
 .control-center-dnd slider {
@@ -255,13 +255,13 @@ slider {
 .widget-dnd > switch {
   font-size: initial;
   border-radius: 8px;
-  background: #363a4f;
+  background: rgba(36,39,58,0.6);
   border: 1px solid #494d64;
   box-shadow: none;
 }
 
 .widget-dnd > switch:checked {
-  background: #363a4f;
+  background: rgba(36,39,58,0.6);
 }
 
 .widget-dnd > switch slider {
@@ -271,7 +271,7 @@ slider {
 }
 
 .widget-mpris .widget-mpris-player {
-  background: #363a4f;
+  background: rgba(36,39,58,0.6);
   padding: 7px;
 }
 
@@ -295,7 +295,7 @@ slider {
 .power-buttons button:hover,
 .powermode-buttons button:hover,
 .screenshot-buttons button:hover {
-  background: #363a4f;
+  background: rgba(36,39,58,0.6);
 }
 
 .control-center .widget-label > label {
