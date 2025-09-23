@@ -5,7 +5,7 @@ You can find a comprehensive guide for Arch Linux with Hyprland [here](https://s
 ## My System:
 - **Distro**: [Arch Linux](https://archlinux.org/)
 - **Window Manager**: [Hyprland](https://github.com/hyprwm/Hyprland)
-- **Terminal**: [Alacritty](https://alacritty.org/)
+- **Terminal**: [Kitty](https://github.com/kovidgoyal/kitty)
 - **Status Bar**: [Waybar](https://github.com/Alexays/Waybar)
 - **Application launcher**: [Wofi](https://hg.sr.ht/~scoopta/wofi)
 - **File Manager**: [Thunar](https://gitlab.xfce.org/xfce/thunar)
