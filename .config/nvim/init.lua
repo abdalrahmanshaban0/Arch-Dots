@@ -25,7 +25,7 @@ require("config.lazy")
 
 --colorscheme
 vim.o.background = "dark" -- or "light" for light mode
-vim.cmd([[colorscheme catppuccin]])
+vim.cmd([[colorscheme tokyonight]])
 
 -- showing error reason for clangd
 vim.diagnostic.config({
