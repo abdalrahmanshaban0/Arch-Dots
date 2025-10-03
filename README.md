@@ -3,6 +3,10 @@ You can find a comprehensive guide for Arch Linux with Hyprland [here](https://s
 <a href="https://www.buymeacoffee.com/abdalrahman" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
 ## My System:
+<p align="center">
+  <img width="694" height="426" alt="image" src="https://github.com/user-attachments/assets/6b3a4f0c-97fa-4f99-8e9e-b280a761fc3c" />
+</p>
+
 - **Distro**: [Arch Linux](https://archlinux.org/)
 - **Window Manager**: [Hyprland](https://github.com/hyprwm/Hyprland)
 - **Terminal**: [Kitty](https://github.com/kovidgoyal/kitty)
