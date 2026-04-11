@@ -108,7 +108,7 @@
     ]
   },
   "custom/prayerTimings": {
-    "exec": "$HOME/.config/waybar/modules/Islamic-Prayer-Timings/build/IPT",
+    "exec": "$HOME/.config/waybar/modules/IPT --daemon",
     "format": "{text} 🕋",
     "return-type": "json",
     "tooltip": true
