@@ -1,5 +1,5 @@
 [general]
-import = [ "tokyonight_night.toml" ]
+import = [ "~/.config/alacritty/dank-theme.toml" ]
 
 [font]
 size = 12.0
