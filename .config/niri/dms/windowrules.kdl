@@ -1,0 +1,21 @@
+window-rule {
+    match app-id="^org.telegram.desktop$"
+    opacity 0.85 
+    background-effect {
+        blur true
+    }
+}
+window-rule {
+    match app-id="^Alacritty$"
+
+    background-effect {
+        blur true
+    }
+}
+window-rule {
+    match app-id="^thunar$"
+    opacity 0.85 
+    background-effect {
+        blur true
+    }
+}
