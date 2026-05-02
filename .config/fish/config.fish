@@ -1,5 +1,7 @@
 source ~/.config/fish/themes/tokyonight_night.fish
 
+set -U fish_greeting
+
 alias ls="eza -l --color --icons --git --group-directories-first"
 alias la="eza -la --color --icons --git --group-directories-first"
 alias grep="grep --color=auto"
