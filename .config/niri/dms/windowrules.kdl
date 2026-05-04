@@ -19,3 +19,38 @@ window-rule {
         blur true
     }
 }
+window-rule {
+    match app-id="^Thunar$"
+    opacity 0.85 
+    background-effect {
+        blur true
+    }
+}
+window-rule {
+    match app-id="^obsidian$"
+    opacity 0.90 
+    background-effect {
+        blur true
+    }
+}
+window-rule {
+    match app-id="^code-oss$"
+    opacity 0.90 
+    background-effect {
+        blur true
+    }
+}
+window-rule {
+    match app-id="^discord$"
+    opacity 0.85
+    background-effect {
+        blur true
+    }
+}
+window-rule {
+    match app-id="^Spotify$"
+    opacity 0.85 
+    background-effect {
+        blur true
+    }
+}
